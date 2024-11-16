@@ -1,0 +1,165 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply background image to the entire body */
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-image: url('https://i.pinimg.com/736x/a8/cc/ec/a8ccecd8b8df8fc4f7b2d0435276a2fd.jpg'); /* Add your background image path here */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+/* Header Section */
+header {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Transparent background for readability */
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+header nav a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* About Section */
+#about {
+    padding: 50px 20px;
+}
+
+#about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#about .bio {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.6); /* Transparent background */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#about h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Skills Section */
+#skills {
+    padding: 50px 20px;
+}
+
+#skills h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style: none;
+}
+
+#skills li {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+/* Projects Section */
+#projects {
+    padding: 50px 20px;
+}
+
+#projects h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.project {
+    background: rgba(0, 0, 0, 0.6); /* Transparent background */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.project h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.project a {
+    display: inline-block;
+    margin: 5px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Resume Section */
+#resume {
+    padding: 50px 20px;
+}
+
+#resume h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#resume a {
+    font-size: 1.2em;
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 20px;
+}
+
+#contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.2em;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+footer p {
+    font-size: 1em;
+}
